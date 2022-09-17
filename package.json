@@ -12,7 +12,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "makefile",
+        "language": ["makefile", "c", "cpp"],
         "path": "./snippets/snippets.code-snippets"
       }
     ]
