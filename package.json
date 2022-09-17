@@ -1,0 +1,20 @@
+{
+  "name": "42-snippets",
+  "displayName": "42 Snippets",
+  "description": "Useful code snippets for 42 projects in C/C++",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "makefile",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
