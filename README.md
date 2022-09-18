@@ -22,7 +22,7 @@ Current Snippets:
 
 ## Feedback
 
-You can contact me on GitHub @chughes741
+You can contact me on GitHub `@chughes741`
 
 ---
 
