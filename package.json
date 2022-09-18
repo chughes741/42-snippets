@@ -3,8 +3,9 @@
   "displayName": "42 Snippets",
   "description": "Useful code snippets for 42 projects in C/C++",
   "version": "0.0.1",
+  "keywords": ["42", "make", "makefile", "c", "cpp"],
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Snippets"
@@ -24,5 +25,13 @@
         "path": "./snippets/c.code-snippets"
       }
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chughes741/42-snippets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chughes741/42-snippets.git"
+  },
+  "homepage": "https://github.com/chughes741/42-snippets"
 }
