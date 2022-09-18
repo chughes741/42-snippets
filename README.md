@@ -2,7 +2,13 @@
 
 ## Features
 
-There are current two Makefile code snippets, one for C and one for C++
+Current Snippets:
+- C Makefile (!makec)
+- C Headerfile (!cheader)
+- C++ Makefile (!makecpp)
+- C++ Class header (!classheader)
+- C++ Class methods (!classdefinition)
+
 
 ## Installation
 ```
