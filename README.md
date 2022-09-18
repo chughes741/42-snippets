@@ -5,7 +5,7 @@
 There are current two Makefile code snippets, one for C and one for C++
 
 ## Installation
-```$ git clone https://github.com/chughes741/42-snippets.git ~/.vscode/extensions/42-snippets```
+`git clone https://github.com/chughes741/42-snippets.git ~/.vscode/extensions/42-snippets`
 
 
 ## Extension Settings
