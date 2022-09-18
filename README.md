@@ -1,5 +1,13 @@
 # 42-snippets README
 
+## Installation
+1. Run this command:
+```
+git clone https://github.com/chughes741/42-snippets.git ~/.vscode/extensions/42-snippets
+```
+2. Reload your VS Code
+3. You're all set!
+
 ## Features
 
 Current Snippets:
@@ -9,25 +17,12 @@ Current Snippets:
 - C++ Class header (!classheader)
 - C++ Class methods (!classdefinition)
 
-
-## Installation
-```
-git clone https://github.com/chughes741/42-snippets.git ~/.vscode/extensions/42-snippets
-```
-
-## Extension Settings
-
-* `myExtension.enable`: Enable/disable this extension.
-
 ## Known Issues
+- VS Code doesn't recognize `.h` files as C
 
-Let me know if you find any
+## Feedback
 
-## Release Notes
-
-### 1.0.0
-
-Initial release
+You can contact me on GitHub @chughes741
 
 ---
 
