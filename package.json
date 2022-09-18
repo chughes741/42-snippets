@@ -13,7 +13,7 @@
     "snippets": [
       {
         "language": "makefile",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/makefile.code-snippets"
       },
       {
         "language": "cpp",
