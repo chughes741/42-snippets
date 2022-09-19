@@ -1,7 +1,20 @@
 {
 	"C header template": {
 		"prefix": "!cheader",
-		"body": "\n#ifndef ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}\n# define ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}\n\n$1//# include <stdio.h>\n$2//# include <unistd.h>\n\n\n$0\n\n\n#endif // ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}",
-		"description": "C headerfile template"
+		"body": [
+			"",
+			"#ifndef ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}",
+			"# define ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}",
+			"",
+			"$1//# include <stdio.h>",
+			"$2//# include <unistd.h>",
+			"",
+			"",
+			"$0",
+			"",
+			"",
+			"#endif // ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}"
+		],
+			"description": "C headerfile template"
 	}
 }
