@@ -7,3 +7,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+## [0.0.1] 2022-09-18
+- Initial release
+
+## [0.0.2] 2022-09-18
+### Changed
+- Updated README
+
+## [0.0.3] 2022-09-18
+### Changed
+- Snippet bodies made into arrays for maintainability
