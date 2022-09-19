@@ -1,13 +1,5 @@
 # 42-snippets README
 
-## Installation
-1. Run this command:
-```
-git clone https://github.com/chughes741/42-snippets.git ~/.vscode/extensions/42-snippets
-```
-2. Reload your VS Code
-3. You're all set!
-
 ## Features
 
 Current Snippets:
