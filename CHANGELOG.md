@@ -18,3 +18,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.3] 2022-09-18
 ### Changed
 - Snippet bodies made into arrays for maintainability
+
+## [0.0.4] 2022-09-19
+### Added
+- Extension icon
