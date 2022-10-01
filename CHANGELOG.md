@@ -22,3 +22,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.4] 2022-09-19
 ### Added
 - Extension icon
+
+## [0.0.5] 2022-10-01
+### Changed
+- C Makefile mkdir moved to it's own dependancy
