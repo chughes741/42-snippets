@@ -26,3 +26,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.5] 2022-10-01
 ### Changed
 - C Makefile mkdir moved to it's own dependancy
+
+## [0.0.6] 2022-10-10
+### Fixed
+- C Makefile: $(NAME) recipe fixed

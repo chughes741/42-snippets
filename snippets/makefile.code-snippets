@@ -106,7 +106,7 @@
 			"all: $(NAME)",
 			"",
 			"$(NAME): $(OBJS)",
-			"\t$(HIDE)$(CC) $(CFLAGS) $@ $<",
+			"\t$(HIDE)$(CC) $(CFLAGS) -o $@ $^",
 			"",
 			"$(OBJS): $(OBJDIR)%.o : $(SRCDIR)%.c $(OBJDIR)",
 			"\t$(HIDE)$(CC) $(CFLAGS) -c $< -o $@",
