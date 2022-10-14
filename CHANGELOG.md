@@ -30,3 +30,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.6] 2022-10-10
 ### Fixed
 - C Makefile: $(NAME) recipe fixed
+
+## [0.0.7] 2022-10-14
+### Added
+- C Makefile: added includes, dependencies, and comments
+- C++ Makefile: added includes, dependencies, and comments
+- C Header: added comments and libft include
