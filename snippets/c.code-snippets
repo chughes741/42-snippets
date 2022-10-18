@@ -3,8 +3,8 @@
 		"prefix": "!cheader",
 		"body": [
 			"",
-			"#ifndef ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}",
-			"# define ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}",
+			"#ifndef ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H/}",
+			"# define ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H/}",
 			"",
 			"// Standard Library headers",
 			"//# include <stdio.h>",
@@ -22,7 +22,7 @@
 			"// Function declarations",
 			"$0",
 			"",
-			"#endif // ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H_/}"
+			"#endif // ${TM_FILENAME/(.*)\\..+$/${1:/upcase}_H/}"
 		],
 			"description": "C headerfile template"
 	}

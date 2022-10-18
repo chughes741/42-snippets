@@ -36,3 +36,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - C Makefile: added includes, dependencies, and comments
 - C++ Makefile: added includes, dependencies, and comments
 - C Header: added comments and libft include
+
+## [0.0.8] 2022-10-18
+### Fixed
+- C header include guard for norminette
+- C++ header to use _HPP for the include guard

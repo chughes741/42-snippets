@@ -3,7 +3,7 @@
   "displayName": "42 Snippets",
   "publisher": "ColeHughes",
   "description": "Useful code snippets for 42 projects in C/C++",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "icon": "images/42-snippets-icon.png",
   "keywords": ["42", "make", "makefile", "c", "cpp"],
   "engines": {
