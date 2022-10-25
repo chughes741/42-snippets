@@ -45,4 +45,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.9] 2022-10-25
 ## Changed
 - C++ OCF class definition and methods fixed for Google C++ style
-- C Makefile changed to prevent relinking and make recipies clearer
+- C Makefile changed to prevent relinking and make recipes clearer
+
+## [0.0.10]
+### Fixed
+- C Makefile all: build dependancy
+- Typos
