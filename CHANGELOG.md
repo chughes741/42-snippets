@@ -41,3 +41,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Fixed
 - C header include guard for norminette
 - C++ header to use _HPP for the include guard
+
+## [0.0.9] 2022-10-25
+## Changed
+- C++ OCF class definition and methods fixed for Google C++ style
+- C Makefile changed to prevent relinking and make recipies clearer
