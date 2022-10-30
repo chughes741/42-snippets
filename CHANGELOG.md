@@ -51,3 +51,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Fixed
 - C Makefile all: build dependancy
 - Typos
+
+## [0.0.11]
+### Changed
+- C++ OCF methods and class snippets
