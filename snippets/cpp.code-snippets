@@ -10,9 +10,9 @@
 			"class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} {",
 			" public:",
 			"  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}($3);",
-			"  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}(const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &${TM_FILENAME/(.*)\\..+$/${1:/downcase}/});",
+			"  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}(const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &other);",
+			"  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &operator=(const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &rhs);",
 			"  ~${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}();",
-			"  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &operator=(const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &other);",
 			"",
 			" private:",
 			"  $2",
@@ -32,14 +32,20 @@
 			"// Default constructor",
 			"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}::${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}($3) { return; }",
 			"",
-			"// Default destructor",
-			"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}::~${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}() { return; }",
-			"",
-			"// Copy assignment",
+			"// Copy constructor",
 			"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}::${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}(const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &other) {",
 			"  *this = other;",
 			"  return;",
 			"}",
+			"",
+			"// Copy assignment overload",
+			"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}::operator=(const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} &rhs) {",
+			"  (void)rhs;",
+			"  return *this;",
+			"}",
+			"",
+			"// Default destructor",
+			"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}::~${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}() { return; }",
 			"",
 		],
 			"description": "OCF class method definitions"
@@ -62,5 +68,12 @@
 			"",
 		],
 		"description": "C headerfile template"
+	},
+	"C++ print to std::cout": {
+		"prefix": "!print",
+		"body": [
+			"std::cout << $1 << std::endl;"
+		],
+		"description": "Writes std::cout << << std::endl"
 	}
 }

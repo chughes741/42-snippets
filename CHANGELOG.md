@@ -55,3 +55,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.11]
 ### Changed
 - C++ OCF methods and class snippets
+
+## [0.0.12]
+### Fixed
+- C++ OCF methods
+### Added
+- C++ print line snippet
